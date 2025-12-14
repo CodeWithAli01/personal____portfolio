@@ -1,0 +1,86 @@
+.container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.items{
+    border: 1px solid yellow;
+    background-color: rgb(15, 10, 24);
+    color: white;
+    border-radius: 10px;
+    height: 250px;
+    width: 400px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.items div{
+    text-align: center;
+}
+.items .dig{
+    text-align: center;
+}
+.items .dig h2{
+    margin-top:0px;
+    margin-bottom: 10px;
+    font-family:  MV Boli;
+    font-size: 30px;
+    color: yellow;
+}
+.dig p{
+    font-family: sans-serif;
+    font-size: 17px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+svg{
+    margin-top: 10px;
+}
+.d h2{
+   font-family: sans-serif;
+   color: yellow;
+   font-size: 50px;
+   text-align: center;
+   margin-top: 0px;
+   margin-bottom: 20px;
+}
+.dm{
+    display: flex;
+    justify-content: center;
+}
+.dn{
+    color: yellow;
+    text-align: center;
+    margin-bottom: 20px;
+      background-color: rgb(15, 10, 24);
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+    border: 1px solid yellow;
+    border-radius: 20px;
+    height: 200px;
+    width: 950px;
+}
+.items:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 0 10px yellow;
+    transition: 0.5s;
+}
+.dn p{
+    text-align: center;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   margin-left: 40px;
+   margin-right: 40px;
+}
+.about{
+    margin-top: 0px;
+}
+
+section h1, section h2, section h3 {
+  scroll-margin-top: 20px;
+}
+.section1{
+    border-bottom: 4px solid rgb(64, 84, 139);
+}
