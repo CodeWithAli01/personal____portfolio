@@ -4,17 +4,17 @@
     justify-content: center;
 }
 .item4{
-    border: 1px solid yellow;
+    border: 1px solid rgb(0, 234, 255);
     border-radius: 10px;
     height: 460px;
     width: 400px;
     margin: 20px;
-    background-color: rgb(31, 32, 34);
+    background-color: rgb(0, 4, 11);
     margin-top: 50px;
 }
 .item4:hover{
     transform: translateY(-10px);
-    box-shadow: 0 0 10px yellow;
+    box-shadow: 0 0 10px rgb(0, 238, 255);
     transition: 0.5s;
 }
 .it img:hover{
@@ -25,24 +25,24 @@
     margin-left: 320px;
 }
 .section3 h2{
-    color: yellow;
+    color: rgb(0, 242, 255);
     font-family: sans-serif;
     font-size: 50px;
     text-align: center;
     margin-bottom: 20px;
 }
 .it{
-    border: 1px solid yellow;
     margin-left: 400px;
     margin-right: 400px;
     height: 150px;
     border-radius: 20px;
     color: white;
-    background-color: rgb(6, 0, 17);
+    background-color:  rgb(12, 1, 27);
+    border: 1px solid rgb(0, 238, 255);
 }
-.it a img{
-    margin-left: 930px;
-    margin-top: 0px;
+.it a svg{
+    margin-left: 935px;
+    margin-top: 5px;
 }
 .item4 div h3{
     font-size: 40px;

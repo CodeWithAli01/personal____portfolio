@@ -1,53 +1,66 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.hed{
+
+.hed {
     background-color: black;
     position: sticky;
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 10;
-     border-bottom: 2px solid rgb(3, 203, 253);
-}  
-a{
+    border-bottom: 2px solid rgb(3, 203, 253);
+}
+
+a {
     color: white;
     font-size: 20px;
     text-decoration: none;
     font-family: sans-serif;
 }
-.a{
+
+.a {
     display: flex;
     align-items: center;
     justify-content: flex-end;
     height: 100px;
 }
-.a .div1{
+
+.a .div1 {
     border-radius: 5px;
     height: 40px;
     margin: 20px;
 }
-.a .div1:hover{
-        border-left: 7px solid  rgb(0, 204, 255);
-        transition: 0.2s;
-        background-color: grey;
+
+.a .div1:hover {
+    border-left: 7px solid rgb(0, 204, 255);
+    transition: 0.2s;
+    background-color: grey;
 }
 
-.div1 div{
+.div1 div {
     margin-top: 7px;
     margin-bottom: 5px;
     margin-left: 5px;
     margin-right: 5px;
 }
-.ana{
+
+.ana {
     margin-left: 20px;
     margin-right: 1060px;
 }
-.ana h1{
+
+.ana h1 {
     font-size: 30px;
 }
+
+.span h1:hover {
+    transform: translateX(20px);
+    transition: 0.5s;
+}
+
 .div1:first-of-type {
-  margin-left: auto;
+    margin-left: auto;
 }

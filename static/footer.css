@@ -19,3 +19,15 @@ footer{
     margin-left: 20px;
     /* border: 1px solid yellow; */
 }
+.item5:hover{
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+.em h1{
+    color: rgb(255, 255, 255);
+}
+.em h1:hover{
+    color: rgb(0, 183, 255);
+     transform: translateX(20px);
+     transition: 0.5s;
+}
