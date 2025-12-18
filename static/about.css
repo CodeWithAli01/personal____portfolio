@@ -77,6 +77,10 @@ svg{
 .about{
     margin-top: 0px;
 }
+.section1{
+    
+    border-bottom: 5px solid rgb(62, 72, 156);
+}
 
 section h1, section h2, section h3 {
   scroll-margin-top: 20px;
