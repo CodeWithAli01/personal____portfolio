@@ -69,7 +69,7 @@ p {
 }
 
 .div_1 img {
-  border: none;
+  border: 4px solid aqua;
   border-radius: 40px;
   box-shadow: 0 0 10px rgb(184, 237, 247);
 }
@@ -113,9 +113,6 @@ p {
   100% {
     width: 0;
   }
-
-  /* d
-  elete */
 }
 
 .div_4 {
@@ -144,4 +141,9 @@ p {
 
 .hnow {
   display: flex;
+}
+html, body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
 }
